@@ -1,2 +1,23 @@
-# portfolio-wip
-A temporary portfolio. The final style and format will be finalized when i complete the UCD coding bootcamp.
+# Portfolio. WIP
+
+## Description
+
+A provisional portfolio of my current work. 
+It will reformatted and restyled as I learn more about coding. The finalized version will come through in September 2023 when I will have completed the UCD coding bootcamp.
+
+## Instalations
+
+N/A
+
+## Usage
+
+Showcase my abilties and work to potential recruiters.
+
+## Credits
+
+All images used: 
+
+## License
+
+MIT License
+
