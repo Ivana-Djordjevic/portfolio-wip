@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 10;
+    margin: 50;
+    font-family: 'Opetima', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #d6a3ec;
+}
+
+header {
+    padding: 20px;
+    background-color: hsl(294, 70%, 24%);
+    color: #fbf7f7;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+header h1 {
+    font-weight: lighter;
+}
+
+header ul {
+    list-style-type: none;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+header li {
+    width: 0 500px; //* still not spaced out*//
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+//* next section *//
+
+div {
+    display: row wrap; //*maybe*//
+    justify-content: space-evenly;
+    background-color: hsla(185, 79%, 41%, 0.435); //* just to see the boxes *//
+    padding: 50px;
+
+}
+
+.banner {
+    color: #c38080;
+    justify-content: space-evenly; //* nope didn't work*//
+}
+
+div p {
+    align-items: center; 
+    margin-left: 500px;
+}
+.banner img {
+   
+    float: left;
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    border-color: black;
+    border-style: dotted;
+    border-width: medium;
+}
+
+//* next section *//
+
+main-header {
+//*how does this alone make the aquamarine color come thru *//
+    
+}
+
+main .mainproj {
+
+    background-color: aquamarine; //* why is it not showing, i cant see a box now *//
+
+}
+
+.proj1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    justify-content: center;
+  
+   
+}
+
+.projx {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    flex: 1 0 200px;
+}
+
+.projx {
+    display: inline-flex;
+    padding: 30px;
+}
+
+.story {
+    margin: 60px; 
+    background-color: brown; //* :') there is a box*//
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(58, 14, 233);
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+footer li {
+    display: inline-flex;
+    margin-left: 25px;
+}
