@@ -3,6 +3,7 @@
     padding: 10;
     margin: 50;
     font-family: 'Opetima', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
 body {
@@ -19,17 +20,17 @@ header {
 }
 
 header h1 {
-    font-weight: lighter;
 }
 
 header ul {
     list-style-type: none;
-    justify-content: space-around;
     display: inline-flex;
 }
 
 header li {
-    width: 0 500px; //* still not spaced out*//
+   flex-wrap: wrap;
+   margin-right:10px;
+   margin-left: 10px;
 }
 
 a {
@@ -37,87 +38,150 @@ a {
     text-decoration: none;
 }
 
-//* next section *//
-
 div {
-    display: row wrap; //*maybe*//
+    display: row wrap; /*maybe*/
     justify-content: space-evenly;
-    background-color: hsla(185, 79%, 41%, 0.435); //* just to see the boxes *//
+    background-color: hsla(289, 57%, 62%, 0.435); /* just to see the boxes */
     padding: 50px;
+    margin-top: 1%;
+
 
 }
 
 .banner {
-    color: #c38080;
-    justify-content: space-evenly; //* nope didn't work*//
+    padding: 10px;
+    color:  hsl(294, 70%, 24%);
+    justify-content: space-evenly; 
+    display: flex;
+    margin-bottom: 1%;
 }
 
-div p {
+.banner p {
     align-items: center; 
-    margin-left: 500px;
+    margin-left: 50px;
 }
 .banner img {
-   
     float: left;
-    height: 10%;
-    width: 10%;
+    height: 100px;
+    width: 14%;
     border-radius: 50%;
     border-color: black;
     border-style: dotted;
     border-width: medium;
+    size; contain;
 }
 
-//* next section *//
-
-main-header {
-//*how does this alone make the aquamarine color come thru *//
-    
+main {
+    font-family: 'Opetima', Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
-main .mainproj {
-
-    background-color: aquamarine; //* why is it not showing, i cant see a box now *//
-
+.projectbox {
+   
+    background-color: rgb(112, 11, 119);
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    border: 3px solid hsla(289, 57%, 62%, 0.435);
+    text-align: center;
+}
+#ban-head{
+  position: relative;
+  top: -60px;
+}
+#ban-p{
+    position: relative;
+    top:-50px;
 }
 
 .proj1 {
-    margin-bottom: 20px;
-    padding: 50px;
+    margin-bottom: 1%;
+    margin-top: ;
+    width: 100%;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: hsla(289, 57%, 62%, 0.435); 
+    background-image: url("./images/mainproj.jpg");
+    background-repeat: repeat;
     color: #ffffff;
     justify-content: center;
-  
-   
+    position: relative;
+    font-family: 'Opetima', Arial, Helvetica, sans-serif;
 }
 
 .projx {
+    width: 20%;
+    min-width: 400px;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #d6a3ec;
     color: #ffffff;
-    flex: 1 0 200px;
-}
+    background-position: 20% 20%;
 
+}   
+#my-work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
 .projx {
     display: inline-flex;
     padding: 30px;
+    position: relative
+}
+
+.projxRepo {
+    background-color:  hsl(294, 70%, 24%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 200px;
+    border: 3px solid hsla(289, 57%, 62%, 0.435);
+}
+
+#firstRepo {
+    background-image: url(./images/firstRepo.jpg);
+    background-size: cover;
+}
+
+#proj2 {
+    background-image: url(./images/proj2.jpg);
+    background-size: cover;
+}
+
+#proj3 {
+    background-image: url(./images/proj3.jpg);
+    background-size: cover;
+}
+
+#proj4 {
+    background-image: url(./images/proj4.jpg);
+    background-size: cover;
+}
+
+#proj5 {
+    background-image: url(./images/proj5.jpg);
+    background-size: cover;
 }
 
 .story {
     margin: 60px; 
-    background-color: brown; //* :') there is a box*//
+    padding: 5%;
+    background-color: hsla(289, 57%, 62%, 0.435); 
 }
 
 footer {
     padding: 30px;
     text-align: center;
-    background-color: rgb(58, 14, 233);
+    background-color:rgb(112, 11, 119);;
     flex-wrap: wrap;
     flex-direction: row;
+    color: #ffffff;
+    
     
 }
 
@@ -133,4 +197,6 @@ footer ul {
 footer li {
     display: inline-flex;
     margin-left: 25px;
+    font-family: Opetima, Arial, Helvetica, sans-serif;
+
 }
