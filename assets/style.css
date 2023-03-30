@@ -1,18 +1,15 @@
 * {
     box-sizing: border-box;
-    padding: 10;
-    margin: 50;
     font-family: 'Opetima', Arial, Helvetica, sans-serif;
-    font-weight: lighter;
 }
 
 body {
-    background-color: #d6a3ec;
+    background-color: #d0c2d6;
 }
 
 header {
     padding: 20px;
-    background-color: hsl(294, 70%, 24%);
+    background-color: hsl(294, 17%, 45%);
     color: #fbf7f7;
     display: flex;
     flex-wrap: wrap; 
@@ -20,6 +17,7 @@ header {
 }
 
 header h1 {
+    font-weight: lighter;
 }
 
 header ul {
@@ -39,36 +37,36 @@ a {
 }
 
 div {
-    display: row wrap; /*maybe*/
-    justify-content: space-evenly;
-    background-color: hsla(289, 57%, 62%, 0.435); /* just to see the boxes */
-    padding: 50px;
-    margin-top: 1%;
-
-
+    background-color: hsla(289, 21%, 65%, 0.435); /* just to see the boxes */
+    margin: 1.1%;
+    text-align: center;
 }
 
 .banner {
     padding: 10px;
-    color:  hsl(294, 70%, 24%);
+    color: hsl(0, 0%, 0%);
     justify-content: space-evenly; 
     display: flex;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: groove;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
 }
 
 .banner p {
     align-items: center; 
-    margin-left: 50px;
 }
 .banner img {
     float: left;
-    height: 100px;
     width: 14%;
     border-radius: 50%;
     border-color: black;
     border-style: dotted;
     border-width: medium;
-    size; contain;
 }
 
 main {
@@ -78,7 +76,7 @@ main {
 
 .projectbox {
    
-    background-color: rgb(112, 11, 119);
+    background-color: hwb(295 39% 47%);
     padding: 5px;
     position: absolute;
     bottom: 0;
@@ -86,39 +84,38 @@ main {
     width: 200px;
     border: 3px solid hsla(289, 57%, 62%, 0.435);
     text-align: center;
-}
-#ban-head{
-  position: relative;
-  top: -60px;
-}
-#ban-p{
-    position: relative;
-    top:-50px;
+    margin: 20px;
+    
 }
 
 .proj1 {
     margin-bottom: 1%;
-    margin-top: ;
-    width: 100%;
+    width: 80.7%;
     height: 300px;
     background-color: hsla(289, 57%, 62%, 0.435); 
     background-image: url("./images/mainproj.jpg");
+    filter: grayscale(50%);
     background-repeat: repeat;
     color: #ffffff;
     justify-content: center;
     position: relative;
     font-family: 'Opetima', Arial, Helvetica, sans-serif;
+    border: groove;
+    border-width: 5px;
+    border-color: black;
 }
 
 .projx {
     width: 20%;
     min-width: 400px;
-    margin-bottom: 20px;
-    padding: 50px;
     height: 300px;
     background-color: #d6a3ec;
     color: #ffffff;
     background-position: 20% 20%;
+    margin: 20px;
+    border: groove;
+    border-width: 5px;
+    border-color: black;
 
 }   
 #my-work {
@@ -134,7 +131,7 @@ main {
 }
 
 .projxRepo {
-    background-color:  hsl(294, 70%, 24%);
+    background-color:  hsl(294, 17%, 45%);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -169,20 +166,26 @@ main {
 }
 
 .story {
-    margin: 60px; 
+    margin: 100px; 
+    margin-top: 25px;
+    margin-bottom: 45px;
     padding: 5%;
-    background-color: hsla(289, 57%, 62%, 0.435); 
+    background-color: hsla(289, 31%, 49%, 0.435); 
+    text-align: center;
+    line-height: 25px;
+    border: groove;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
 }
 
 footer {
     padding: 30px;
     text-align: center;
-    background-color:rgb(112, 11, 119);;
+    background-color:hsl(294, 17%, 45%);
     flex-wrap: wrap;
     flex-direction: row;
-    color: #ffffff;
-    
-    
+    color: #ffffff; 
 }
 
 footer h4 {
@@ -198,5 +201,4 @@ footer li {
     display: inline-flex;
     margin-left: 25px;
     font-family: Opetima, Arial, Helvetica, sans-serif;
-
 }
