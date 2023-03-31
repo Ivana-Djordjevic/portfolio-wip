@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #d0c2d6;
+    background: linear-gradient(0.5turn,hsl(290, 100%, 13%), hsla(289, 21%, 65%, 0.435),hsl(290, 100%, 13%)  );
 }
 
 header {
     padding: 20px;
-    background-color: hsl(294, 17%, 45%);
+    background-color: hsl(290, 100%, 13%);
     color: #fbf7f7;
     display: flex;
     flex-wrap: wrap; 
@@ -37,37 +37,44 @@ a {
 }
 
 div {
-    background-color: hsla(289, 21%, 65%, 0.435); /* just to see the boxes */
+    background-color: hsla(289, 21%, 65%, 0.435);
     margin: 1.1%;
     text-align: center;
+    margin-left: 5vw;
+    border-radius: 20px;
+    font-family: 'Opetima', Arial, Helvetica, sans-serif;
 }
 
+
 .banner {
-    padding: 10px;
-    color: hsl(0, 0%, 0%);
-    justify-content: space-evenly; 
+    font-family: 'Opetima', Arial, Helvetica, sans-serif;
+    padding: 5px;
+    color: hsl(0, 22%, 92%);
     display: flex;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 100px;
-    margin-right: 100px;
-    border: groove;
-    border-width: 5px;
-    border-color: black;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 20px;
+    line-height: 2;
 }
+
 
 .banner p {
     align-items: center; 
 }
 .banner img {
     float: left;
-    width: 14%;
+    width: 13%;
+    height: auto;
+    margin-left: 2%;
     border-radius: 50%;
-    border-color: black;
+    border-color: hsl(290, 100%, 13%);
     border-style: dotted;
     border-width: medium;
 }
+
+
 
 main {
     font-family: 'Opetima', Arial, Helvetica, sans-serif;
@@ -76,13 +83,12 @@ main {
 
 .projectbox {
    
-    background-color: hwb(295 39% 47%);
+    background-color:hsl(290, 36%, 45%);
     padding: 5px;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 200px;
-    border: 3px solid hsla(289, 57%, 62%, 0.435);
     text-align: center;
     margin: 20px;
     
@@ -90,7 +96,7 @@ main {
 
 .proj1 {
     margin-bottom: 1%;
-    width: 80.7%;
+    width: 82.7%;
     height: 300px;
     background-color: hsla(289, 57%, 62%, 0.435); 
     background-image: url("./images/mainproj.jpg");
@@ -100,22 +106,17 @@ main {
     justify-content: center;
     position: relative;
     font-family: 'Opetima', Arial, Helvetica, sans-serif;
-    border: groove;
-    border-width: 5px;
-    border-color: black;
+    border-radius: 20px;
 }
 
 .projx {
-    width: 20%;
-    min-width: 400px;
+    width: 40%;
     height: 300px;
     background-color: #d6a3ec;
     color: #ffffff;
     background-position: 20% 20%;
     margin: 20px;
-    border: groove;
-    border-width: 5px;
-    border-color: black;
+    border-radius: 20px;
 
 }   
 #my-work {
@@ -126,19 +127,24 @@ main {
 }
 .projx {
     display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     padding: 30px;
-    position: relative
+    position: relative;
+
 }
 
-.projxRepo {
+
+.projxRepo { /*temporary removed the div of this class, line 54 and 59 on html*/
     background-color:  hsl(294, 17%, 45%);
     position: absolute;
     bottom: 0;
     left: 0;
     height: 50px;
     width: 200px;
-    border: 3px solid hsla(289, 57%, 62%, 0.435);
 }
+
 
 #firstRepo {
     background-image: url(./images/firstRepo.jpg);
@@ -166,28 +172,26 @@ main {
 }
 
 .story {
-    margin: 100px; 
-    margin-top: 25px;
-    margin-bottom: 45px;
-    padding: 5%;
-    background-color: hsla(289, 31%, 49%, 0.435); 
+    margin: 2%; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color:  hsla(289, 21%, 65%, 0.435); 
     text-align: center;
     line-height: 25px;
-    border: groove;
-    border-width: 5px;
-    border-color: black;
     border-radius: 20px;
+    color: #ffffff;
 }
 
 footer {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-    background-color:hsl(294, 17%, 45%);
+    background-color: hsl(290, 100%, 13%);
     flex-wrap: wrap;
     flex-direction: row;
     color: #ffffff; 
 }
-
+ 
 footer h4 {
     font-size: 20px;
 }
@@ -202,3 +206,18 @@ footer li {
     margin-left: 25px;
     font-family: Opetima, Arial, Helvetica, sans-serif;
 }
+
+a:hover {
+    background:#ffffff;
+    color: hwb(295 7% 67%);
+    transition: background-color 0.5s ease;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px grey;
+    text-decoration: blink;
+    padding: 5px;
+    border: groove;
+    border-color: hsl(290, 100%, 13%);
+    border-radius: 20px;
+}
+    
+@media screen and (max-width: 992px) {body}
