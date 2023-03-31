@@ -15,7 +15,7 @@ Showcase my abilties and work to potential recruiters.
 
 ## Credits
 
-All images used: 
+All images used: my own.
 
 ## License
 
