@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 * {
+    font-family: 'Dosis', sans-serif; 
     box-sizing: border-box;
-    font-family: 'Opetima', Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -42,14 +44,14 @@ div {
     text-align: center;
     margin-left: 5vw;
     border-radius: 20px;
-    font-family: 'Opetima', Arial, Helvetica, sans-serif;
 }
 
 
 .banner {
-    font-family: 'Opetima', Arial, Helvetica, sans-serif;
     padding: 5px;
     color: hsl(0, 22%, 92%);
+    flex-wrap: wrap;
+    justify-content: center;
     display: flex;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -74,16 +76,18 @@ div {
     border-width: medium;
 }
 
-
+#banner2 {
+      
+    min-width: 250px;
+}
 
 main {
-    font-family: 'Opetima', Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
 .projectbox {
    
-    background-color:hsl(290, 36%, 45%);
+    background-color:hsla(289, 57%, 62%, 0.8);
     padding: 5px;
     position: absolute;
     bottom: 0;
@@ -98,14 +102,13 @@ main {
     margin-bottom: 1%;
     width: 82.7%;
     height: 300px;
-    background-color: hsla(289, 57%, 62%, 0.435); 
+    background-color: hsla(289, 57%, 62%, 0.8); 
     background-image: url("./images/mainproj.jpg");
     filter: grayscale(50%);
     background-repeat: repeat;
     color: #ffffff;
     justify-content: center;
     position: relative;
-    font-family: 'Opetima', Arial, Helvetica, sans-serif;
     border-radius: 20px;
 }
 
@@ -136,7 +139,7 @@ main {
 }
 
 
-.projxRepo { /*temporary removed the div of this class, line 54 and 59 on html*/
+.projxRepo { 
     background-color:  hsl(294, 17%, 45%);
     position: absolute;
     bottom: 0;
@@ -204,7 +207,6 @@ footer ul {
 footer li {
     display: inline-flex;
     margin-left: 25px;
-    font-family: Opetima, Arial, Helvetica, sans-serif;
 }
 
 a:hover {
