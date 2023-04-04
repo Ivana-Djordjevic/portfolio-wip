@@ -62,7 +62,6 @@ div {
     line-height: 2;
 }
 
-
 .banner p {
     align-items: center; 
 }
@@ -151,27 +150,27 @@ main {
 
 
 #firstRepo {
-    background-image: url(./images/firstRepo.jpg);
+    background-image: url("./images/firstRepo.jpg");
     background-size: cover;
 }
 
 #proj2 {
-    background-image: url(./images/proj2.jpg);
+    background-image: url("./images/proj2.jpg");
     background-size: cover;
 }
 
 #proj3 {
-    background-image: url(./images/proj3.jpg);
+    background-image: url("./images/proj3.jpg");
     background-size: cover;
 }
 
 #proj4 {
-    background-image: url(./images/proj4.jpg);
+    background-image: url("./images/proj4.jpg");
     background-size: cover;
 }
 
 #proj5 {
-    background-image: url(./images/proj5.jpg);
+    background-image: url("./images/proj5.jpg");
     background-size: cover;
 }
 
@@ -184,6 +183,7 @@ main {
     width: 200px;
     text-align: center;
     margin: 20px;
+    flex: 
 }
 
 .story {
