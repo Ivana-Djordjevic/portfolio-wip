@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+ 
+* {
+    font-family: 'Spectral', Arial, Helvetica, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+ 
+/* color variables */
+
+:root {
+    --darkPpurple: hsl(290, 100%, 13%);
+    --lightPpurple: hsla(289, 21%, 65%, 0.435);
+    --lilacPurple: hsla(289, 57%, 62%, 0.8);
+}
+
+/* color application*/
+
+body {
+    background: linear-gradient(0.5turn, var(--darkPurple), var(--lightPurple), var(--darkPpurple));
+    color: white;
+}
+
+.dark-purple {
+    background-color: var(--darkPurple);
+}
+
+.light-purple {
+    background-color: var(--lightPurple);
+}
+
+.lilac-purple {
+    background-color: var(--lilacPurple);
+}
+
+/* Repeated classes layout */ 
+
+.round-edges {
+    border-radius: 20px;
+}
+
+.nav-contact { 
+    padding-left: 20px; /*is contact necessary here? */
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-shrink: 1;
+}
+
+.project-box {
+    background: var(--lilacPurple);
+    justify-content: center;
+    padding: 10px;
+    margin-right: 70%;
+}
+
+/* properties with shared values -- does that make sense?*/
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover { 
+    background: white;
+    color: var(--darkPurple);
+    transition: background-color 0.5s ease;
+    font-size: large;
+    box-shadow: 2px 2px 4px grey;
+    text-decoration: blink;
+    padding: 5px;
+    border: groove;
+    border-color: var(--darkPurple);
+    border-radius: 20px;
+}
+
+a:visited {
+    background: var(--darkPurple);
+    color: white;
+    transition: background-color 0.5s ease;
+    font-size: large;
+    box-shadow: 2px 2px 4px grey;
+    text-decoration: blink;
+    padding: 5px;
+    border: groove;
+    border-color: var(--darkPurple);
+    border-radius: 20px;
+}
+
+/* follows HTML chronologically*/
+
+header {
+    justify-content: space-around;
+}
+
+.banner-aboutme {
+    justify-content: center;
+}
+
+#banner-img {
+    width: 13%;
+    height: auto;
+    margin-left: 70%; /* maybe */
+    border-radius: 50%;
+    border-color: var(--darkPurple);
+    border-style: dotted;
+    border-width: medium;
+}
+
+.mainproj {
+    width: 80%;
+}
+
+#proj1 {
+    background-image: url("./images/mainproj.jpg");
+    filter: grayscale(50%);
+}
+
+#firstRepo {
+    background-image: url("./images/firstRepo.jpg");
+    background-size: cover;
+}
+
+#proj2 {
+    background-image: url("./images/proj2.jpg");
+    background-size: cover;
+}
