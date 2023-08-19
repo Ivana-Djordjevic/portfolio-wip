@@ -3,7 +3,7 @@
 ## Description
 
 A provisional portfolio of my current work. 
-It will reformatted and restyled as I learn more about coding. The finalized version will come through in September 2023 when I will have completed the UCD coding bootcamp.
+It will reformatted and restyled as I learn more about coding. The finalized version will come through in February 2024 when I will have completed the UCD coding bootcamp.
 
 ## Instalations
 
