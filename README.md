@@ -6,10 +6,13 @@ A provisional portfolio of my current work.
 It will reformatted and restyled as I learn more about coding. The finalized version will come through in February 2024 when I will have completed the UCD coding bootcamp.
 
 Here is a preview:
-<img width="911" alt="preview of my portfolio design" src="https://github.com/runningaroundintheabyss/portfolio-wip/assets/127266659/f4a42c45-b042-46f3-9102-4a36c9bb48b4">
+<img width="924" alt="portofolio screenshot" src="https://github.com/runningaroundintheabyss/portfolio-wip/assets/127266659/4dc97e57-37ef-4a3b-a915-3d98bf01d2e7">
+
+
+
 
 Here is the link:
-TBD
+https://runningaroundintheabyss.github.io/portfolio-wip/
 
 ## Instalations
 
