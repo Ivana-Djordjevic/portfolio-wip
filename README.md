@@ -12,7 +12,7 @@ Here is a preview:
 
 
 Here is the link:
-https://runningaroundintheabyss.github.io/portfolio-wip/
+[Portfolio Link](https://ivana-djordjevic.github.io/portfolio-wip/)
 
 ## Instalations
 
